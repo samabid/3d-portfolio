@@ -2,12 +2,13 @@ import { BrowserRouter } from "react-router-dom";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, StarsCanvas, Works } from "./components";
 import { Toaster } from "react-hot-toast";
+import bg from "../src/assets/herobg.png"
 
 const App = () => {
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
-        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
+        <div style={{backgroundImage: `url(${bg})`}} className='bg-cover bg-no-repeat bg-center'>
           <Navbar />
           <Hero />
         </div>
