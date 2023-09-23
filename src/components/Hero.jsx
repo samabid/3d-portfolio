@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="flex justify-center items-center ">
-      <img src={computer}  className="flex md:w-2/4 md:pt-[200px] pt-[350px] object-contain"/>
+      <img src={computer}  className="flex md:w-2/4 md:pt-[200px] pt-[300px] object-contain"/>
       </div>
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
