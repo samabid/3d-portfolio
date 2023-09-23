@@ -34,14 +34,13 @@ import {
   tielink,
   wax,
   zoom,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  wordpress,
+  sapient,
+  mwficon,
 } from "../assets";
 
 export const navLinks = [
@@ -79,6 +78,10 @@ const services = [
 ];
 
 const technologies = [
+  {
+    name: "WordPress",
+    icon: wordpress,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -131,13 +134,14 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
+  
 ];
 
 const experiences = [
   {
     title: "Web Developer",
     company_name: "MarketingwithaFlair",
-    icon: starbucks,
+    icon: mwficon,
     iconBg: "#383E56",
     date: "August 2020 - Present",
     points: [
@@ -154,7 +158,7 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "Sapient Pro",
-    icon: tesla,
+    icon: sapient,
     iconBg: "#E6DEDD",
     date: "Dec 2018 - Sep 2020",
     points: [
